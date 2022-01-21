@@ -88,3 +88,13 @@ void loop()
 }
 
 }
+
+delay(500);
+ vertical_2.write(30);
+ delay(400);
+ horizontal_2.write(1);
+ delay(400);
+ vertical_2.write(pos2);
+ delay(400);
+
+
