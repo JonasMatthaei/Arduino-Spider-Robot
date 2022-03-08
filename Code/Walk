@@ -23,7 +23,6 @@ int h_default = 35;
 int l_default = 20;
 
 
-
 void setup(){
   horizontal_0.attach(4);
   leg_0.attach(3);  
@@ -46,14 +45,15 @@ void setup(){
   delay(700);
   //in defau position gehen
 
-  defaultPos();
-  
-  
-  
+  defaultPosition();
+  delay(5000);
+  loop();
+
 }
 
+
 //default position
-void defaultPos(){
+void defaultPosition(){
 
   vertical_0.write(v_default);
   vertical_1.write(v_default + 90);  //Symmetrie
@@ -71,3 +71,112 @@ void defaultPos(){
   leg_3.write(l_default + 140);  //Symmetrie
 
 }
+
+
+void loop() {
+
+    for (int i=0; i <= 10; i++) {
+      
+      vertical_2.write(v_default - 40);
+      horizontal_2.write(h_default - 50);   // Erster Schritt mit Komplex 0
+      delay(200);
+      vertical_2.write(v_default);
+      delay(200);
+
+      
+      horizontal_2.write(h_default);                  // Drück Bewegung der Horizontals
+      horizontal_0.write(h_default - 60);
+      horizontal_1.write(h_default + 90 - 60);
+      horizontal_3.write(h_default + 90 + 60);
+      
+      delay(200);
+      vertical_2.write(v_default + 20);
+      delay(200);
+      
+      
+      horizontal_2.write(h_default);
+      horizontal_0.write(h_default);
+      horizontal_1.write(h_default + 90);
+      horizontal_3.write(h_default + 90);
+      delay(100);
+
+      vertical_0.write(v_default);
+      vertical_1.write(v_default + 90);  //Symmetrie
+      vertical_3.write(v_default + 90);
+
+      delay(200);
+      vertical_2.write(v_default);
+
+      
+      delay(5000);
+
+
+      vertical_0.write(v_default - 40);
+      horizontal_0.write(h_default + 50);   // Erster Schritt mit Komplex 0
+      delay(200);
+      vertical_0.write(v_default);
+      delay(200);
+
+      
+      horizontal_0.write(h_default - 50);                  // Drück Bewegung der Horizontals
+      horizontal_2.write(h_default - 50);
+      horizontal_1.write(h_default + 90 - 50);
+      horizontal_3.write(h_default + 90 + 50);
+      
+      delay(200);
+      vertical_0.write(v_default + 20);
+      delay(200);
+      
+      vertical_2.write(v_default - 50);
+      vertical_1.write(v_default + 90 + 50);  //Symmetrie
+      vertical_3.write(v_default + 90 + 50);
+      delay(200);
+      horizontal_0.write(h_default);
+      horizontal_2.write(h_default);
+      horizontal_1.write(h_default + 90);
+      horizontal_3.write(h_default + 90);
+      delay(100);
+
+      vertical_2.write(v_default);
+      vertical_1.write(v_default + 90);  //Symmetrie
+      vertical_3.write(v_default + 90);
+
+      delay(200);
+      vertical_0.write(v_default);
+
+      
+      delay(50000);  
+
+
+      
+
+      vertical_0.write(v_default - 40);
+      horizontal_0.write(h_default + 50);   // Erster Schritt mit Komplex 0
+      delay(200);
+      vertical_0.write(v_default);
+      delay(200);
+      horizontal_0.write(h_default - 50); 
+      horizontal_0.write(h_default);              // Drückbewegung der Horizontals
+      horizontal_2.write(h_default + 50);
+      horizontal_1.write(h_default + 90 - 50);
+      horizontal_3.write(h_default + 90 + 50);
+      
+      delay(200);
+      vertical_0.write(v_default + 20);
+      delay(200);
+      
+
+      horizontal_2.write(h_default);
+      horizontal_1.write(h_default + 90);
+      horizontal_3.write(h_default + 90);
+
+      delay(200);
+      vertical_0.write(v_default);
+      delay(5000);
+
+      
+      }
+
+
+}
+
