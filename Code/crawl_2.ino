@@ -85,7 +85,7 @@ void loop() {
       delay(100);
       vertical_2.write(v_default + 10);
       leg_2.write(l_default);
-      delay(5000);
+      delay(500);
 
       vertical_0.write(v_default - 70);      //komplex 0 nach vorne
       leg_0.write(l_default + 10 + 50);
@@ -95,7 +95,7 @@ void loop() {
       vertical_0.write(v_default - 10);
       leg_0.write(l_default + 10);
       
-      delay(5000);
+      delay(500);
 
       vertical_1.write(v_default + 90 + 40);     //komplex 1 nach vorne
       leg_1.write(l_default - 80);
@@ -105,7 +105,7 @@ void loop() {
       vertical_1.write(v_default + 90 - 10);
       leg_1.write(l_default + 140);
 
-      delay(5000);
+      delay(500);
 
       vertical_3.write(v_default + 90 + 70);     //komplex 3 nach vorne
       leg_3.write(l_default + 140 - 40);
@@ -115,44 +115,56 @@ void loop() {
       vertical_3.write(v_default + 90 + 10);
       leg_3.write(l_default + 140);
 
-      delay(1000);
+      delay(500);
 
       horizontal_2.write(h_default + 40);                  // Drück Bewegung der Horizontals
-      horizontal_0.write(h_default - 40);
+      horizontal_0.write(h_default - 30);
       horizontal_1.write(h_default + 90 - 40);
       horizontal_3.write(h_default + 90 + 40);
 
       delay(2000);
 
-      vertical_2.write(v_default - 30);     //komplex 2 in zurück in default 
-      delay(200);
+      
+      vertical_2.write(v_default - 70);    //komplex 2 zurück in default
+      leg_2.write(l_default + 70);
+      delay(20);
       horizontal_2.write(h_default);
-      delay(200);
+      delay(100);
+      leg_2.write(l_default);
       vertical_2.write(v_default - 10);
       
       delay(500);
 
-      vertical_0.write(v_default - 30);     //komplex 0 in zurück in default 
-      delay(200);
+      vertical_0.write(v_default - 70);     //komplex 0 in zurück in default 
+      leg_0.write(l_default + 10 + 70);
+      delay(20);
       horizontal_0.write(h_default);
-      delay(200);
+      delay(100);
+      leg_0.write(l_default + 10);
       vertical_0.write(v_default - 10);
       
       delay(500);
 
       vertical_1.write(v_default + 90 + 15);     //komplex 1 in zurück in default 
-      delay(200);
+      leg_1.write(l_default - 80);
+      delay(20);
       horizontal_1.write(h_default + 90);
-      delay(200);
+      delay(100);
       vertical_1.write(v_default + 90 + 10);
+      leg_1.write(l_default + 140);
 
       delay(500);
 
       vertical_3.write(v_default + 90 + 30);     //komplex 3 in zurück in default 
-      delay(200);
+      leg_3.write(l_default +140 - 40);
+      delay(20);
       horizontal_3.write(h_default + 90);
-      delay(200);
+      delay(100);
       vertical_3.write(v_default + 90 + 10);
+      leg_3.write(l_default + 140);
+
+
+     delay(500);
      
       }
 
