@@ -4,4 +4,5 @@ This learning kit is based on the popular open source electronics platform Ardui
 SunFounder Crawling Quadruped Robot is a four-leg mobile robot, and each leg has three joints driven by a servo. It is powered by two 18650 rechargeable lithium batteries, compatible with Arduino Nano V3.0 board and uses the SunFounder Nano board as control. In addition, a SunFounder Servo Control Board integrates battery, servo, SunFounder Nano board, and nRF24l01 wireless module together. This kit is equipped with a SunFounder Mobile Robot Remote Controller so that you can observe and control the robot remotely.
 
 
-![Robot_1](https://user-images.githubusercontent.com/78216366/158181073-f0f692ac-71a5-43e8-bf0a-12e9a7f431e5.jpg)
+![Robot_3](https://user-images.githubusercontent.com/78216366/158181729-ca1ec038-85e1-48fb-a47f-9ecfb59dd35b.jpg)
+
