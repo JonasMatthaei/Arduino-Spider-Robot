@@ -2,3 +2,6 @@
 This learning kit is based on the popular open source electronics platform Arduino. It is different from most popular kits on the market. With this kit, you can not only learn how to use Arduino, servo and wireless module but also DIY a cool crawling quadruped robot with wireless remote control. We provide a very detailed manual and technical support for free. And we are ready to answer your questions at any time. If you want to DIY your own robot, this kit is a good start.
 
 SunFounder Crawling Quadruped Robot is a four-leg mobile robot, and each leg has three joints driven by a servo. It is powered by two 18650 rechargeable lithium batteries, compatible with Arduino Nano V3.0 board and uses the SunFounder Nano board as control. In addition, a SunFounder Servo Control Board integrates battery, servo, SunFounder Nano board, and nRF24l01 wireless module together. This kit is equipped with a SunFounder Mobile Robot Remote Controller so that you can observe and control the robot remotely.
+
+
+![Robot_1](https://user-images.githubusercontent.com/78216366/158181073-f0f692ac-71a5-43e8-bf0a-12e9a7f431e5.jpg)
