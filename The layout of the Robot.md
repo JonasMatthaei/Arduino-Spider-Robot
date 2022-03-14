@@ -1,4 +1,4 @@
-# Structure 
+# The layout of the Robot 
 
 The robot contains 4 complexes.
 ![Bild-1](https://user-images.githubusercontent.com/78216366/158202334-3b67aa78-94a1-4618-b74b-cf09caeb2600.jpg)
